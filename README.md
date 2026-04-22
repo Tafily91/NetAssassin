@@ -4,7 +4,8 @@ NetAssassin 🎯
 
 **Installation and Usage Guide**
 
-git clone https://github.com/Tafily91/netassassin.git
+
+git clone https://github.com/Tafily91/NetAssassin.git
 
 cd netassassin
 
