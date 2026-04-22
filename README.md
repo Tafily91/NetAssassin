@@ -28,5 +28,9 @@ netassassin --history
 
 
 ⚠️ Security & Legal Notice
+
 IMPORTANT: NetAssassin is intended for educational and authorized security testing purposes only.
-Do NOT use this tool to scan networks or systems without explicit permission. Unauthorized access to computer systems is illegal. The author is not responsible for any misuse of this software. Always stay ethical and test responsibly.
+
+Do NOT use this tool to scan networks or systems without explicit permission. Unauthorized access to computer systems is illegal. 
+
+The author is not responsible for any misuse of this software. Always stay ethical and test responsibly.
