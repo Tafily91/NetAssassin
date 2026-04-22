@@ -38,14 +38,19 @@ netassassin -t 192.168.1.0/24 -p 80,443 -a
 
 netassassin --history
 
+
 📊 Arguments Reference
 
-Argument    	 Short	      Description
---target	     -t         	Target IP, Domain, or CIDR range
---ports	       -p	          Specific ports (e.g., 80,443 or 1-1000)
---aggressive   -a           Enable banner grabbing for service info
---history	                  View your last 20 scan results
---help	      -h           	Show the help menu
+
+    -t         Target IP, Domain, or CIDR range  --target	
+      
+    -p	        Specific ports (e.g., 80,443 or 1-1000)       --ports	   
+
+    -a           Enable banner grabbing for service info     --aggressive
+
+        View your last 20 scan results           --history	
+ 
+    -h     	Show the help menu     --help
 
 
 ⚠️ Security & Legal Notice
