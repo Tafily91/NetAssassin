@@ -78,7 +78,12 @@ def main():
 
     target = args.target or input(f"{Y}Target IP/Range: {W}")
     p_in = args.ports or "1-1024"
-    ports = range(int(p_in.split('-')[0]), int(p_in.split('-')[1])+1) if '-' in p_in else [int(x) for x in p_in.split(',')]
+    
+    if '-' in p_in:
+        low, high = map(int, p_in.split('-'))
+        ports = range(low, high + 1)
+    else:
+        ports = [int(x) for x in p_in.split(',')]
     
     try:
         targets = [str(ip) for ip in ipaddress.ip_network(target).hosts()] if '/' in target else [target]
