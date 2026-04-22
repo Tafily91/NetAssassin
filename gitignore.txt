@@ -1,0 +1,4 @@
+__pycache__/
+.netassassin/
+*.pyc
+.DS_Store

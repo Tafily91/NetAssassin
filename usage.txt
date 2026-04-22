@@ -1,0 +1,9 @@
+
+---
+
+### 4. `QUICKSTART.md` (Fast Guide)
+```markdown
+# Quick Start
+1. Run `./setup.sh`
+2. Start scanning: `netassassin -t 127.0.0.1 -p 1-1024`
+3. Check history: `netassassin --history`
